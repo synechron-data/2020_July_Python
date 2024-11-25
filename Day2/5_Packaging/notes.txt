@@ -1,0 +1,26 @@
+Create show.py and write code
+Create setup.py and write code using distutils
+
+py -m venv dev_env
+
+dev_env\Scripts\activate
+pip list
+py setup.py install
+pip list
+
+dev_env\Scripts\deactivate
+
+------------------------------------------
+
+Create sdist using : py setup.py sdist --format zip
+
+py -m venv test_env
+test_env\Scripts\activate
+pip list
+pip install dist/myshow-1.0.0.zip
+pip list
+
+pip uninstall myshow
+pip list
+
+test_env\Scripts\deactivate

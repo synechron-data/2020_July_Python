@@ -1,0 +1,25 @@
+Numeric (Immutable)
+	Integer	
+	Float
+	Complex Number
+
+Dictionary (Mutable)
+
+Boolean	(Immutable)
+
+Set
+FrozenSet	(Immutable)
+
+str	(Immutable)
+
+Sequence Types
+	List (Mutable)
+	Tuple (Immutable)
+
+Python handles mutable and immutable objects differently.
+
+Immutable are quicker to access than mutable objects.
+
+Mutable objects are great to use when you need to change the size of the object, example list, dict etc.. Immutables are used when you need to ensure that the object you made will always stay the same.
+
+Immutable objects are fundamentally expensive to “change”, because doing so involves creating a copy. Changing mutable objects is cheap.
